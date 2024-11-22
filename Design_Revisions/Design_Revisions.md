@@ -30,17 +30,12 @@ Below is the list of six design revisions submitted for review. Each revision hi
 - **Description**: Finalized version of the design document with updated details on power constraints, visibility requirements for the OLED display, and calibration methods.
 - **Key Features**: Included comprehensive diagrams, detailed explanations of power management, and updated UV sensor specifications.
 
-## 5. Firmware Code – Rev. 1 (`firmware_code_v1.cpp`)
-- **Description**: Initial implementation of firmware for STM32 microcontrollers, integrating UV index readings and display output.
-- **Key Features**: Basic UV sensor data collection and OLED output functionality. Configured GPIO pins for initial breadboard setup.
-- **Reason for Revision**: Required modifications to handle inter-board communication after UART removal and optimization for power consumption.
-
-## 6. 3D Housing Design – Rev. 1 (`housing_rev1.stl`)
+## 5. 3D Housing Design – Rev. 1 (`housing_rev1.stl`)
 - **Description**: Initial 3D housing design for the UV sensor and OLED display.
 - **Key Features**: Basic structure for housing components, but lacked critical features like visibility for the OLED display and precise sizing for sensor placement.
 - **Reason for Revision**: Needed updates to improve usability and fit for real-world usage.
 
-## 7. 3D Housing Design – Rev. 2 (`housing_rev2.stl`)
+## 6. 3D Housing Design – Rev. 2 (`housing_rev2.stl`)
 - **Description**: Revised 3D housing design addressing visibility and sizing concerns.
 - **Key Features**: Added a clear window for OLED visibility and adjusted dimensions for a snug, secure fit for the UV sensor.
 - **Improvements Over Rev. 1**: Enhanced functionality and durability for outdoor conditions while maintaining weather resistance.
