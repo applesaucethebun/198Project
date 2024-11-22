@@ -30,12 +30,22 @@ Below is the list of six design revisions submitted for review. Each revision hi
 - **Description**: Finalized version of the design document with updated details on power constraints, visibility requirements for the OLED display, and calibration methods.
 - **Key Features**: Included comprehensive diagrams, detailed explanations of power management, and updated UV sensor specifications.
 
-## 5. 3D Housing Design – Rev. 1 (`housing_rev1.stl`)
-- **Description**: Initial 3D housing design for the UV sensor and OLED display.
-- **Key Features**: Basic structure for housing components, but lacked critical features like visibility for the OLED display and precise sizing for sensor placement.
-- **Reason for Revision**: Needed updates to improve usability and fit for real-world usage.
+## 5. 3D Housing Design – Rev. 1 (`CAD Revision 1.0.png`)
+- **Description**: Initial CAD design for the housing of the UV sensor and OLED display.
+- **Key Features**: 
+  - Basic rectangular structure for enclosing components.
+  - Lacked a clear opening for OLED visibility, making the display inaccessible for practical use.
+  - Dimensions were imprecise, leading to loose fits for the UV sensor.
+- **Reason for Revision**: The design was revised to include openings for visibility and improved dimensioning for secure placement of components.
 
-## 6. 3D Housing Design – Rev. 2 (`housing_rev2.stl`)
-- **Description**: Revised 3D housing design addressing visibility and sizing concerns.
-- **Key Features**: Added a clear window for OLED visibility and adjusted dimensions for a snug, secure fit for the UV sensor.
-- **Improvements Over Rev. 1**: Enhanced functionality and durability for outdoor conditions while maintaining weather resistance.
+![3D Housing Rev. 1](CAD%20Revision%201.0.png)
+
+## 6. 3D Housing Design – Rev. 2 (`CAD Revision 3.3.png`)
+- **Description**: Improved CAD design addressing the shortcomings of Rev. 1.
+- **Key Features**: 
+  - Added a precise cutout for the OLED display, ensuring it is clearly visible while protecting it from damage.
+  - Adjusted dimensions to create a snug fit for the UV sensor, ensuring stability within the housing.
+  - Improved the overall design to maintain weather resistance while enhancing usability in outdoor environments.
+- **Improvements Over Rev. 1**: Enhanced visibility for the OLED display and a more robust fit for the UV sensor, improving practicality and durability.
+
+![3D Housing Rev. 2](CAD%20Revision%203.3.png)
