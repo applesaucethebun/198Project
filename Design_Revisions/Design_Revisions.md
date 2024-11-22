@@ -2,15 +2,24 @@
 
 Below is the list of six design revisions submitted for review. Each revision highlights specific updates or changes made during the design process.
 
-## 1. Breadboard Diagram – Rev. 1 (`breadboard_rev1.fzz`)
-- **Description**: Initial wiring configuration using UART communication between the two STM32 microcontrollers.
-- **Key Features**: This version established communication via UART with basic connections for the OLED display and UV sensor.
-- **Reason for Revision**: Transitioned away from UART communication in the subsequent version to simplify the design and improve power efficiency.
+## 1. Breadboard Diagram – Rev. 1 (`Breadboard Revision 1.0.png`)
+- **Description**: Initial theoretical wiring configuration using UART communication between the two STM32 microcontrollers. This version was planned but not yet applied to the physical breadboard.
+- **Key Features**: 
+  - Used UART for inter-board communication.
+  - Included basic connections for the OLED display and UV sensor.
+- **Reason for Revision**: Transitioned away from UART communication in the subsequent version to simplify the design and ensure practicality.
 
-## 2. Breadboard Diagram – Rev. 2 (`breadboard_rev2.fzz`)
-- **Description**: Updated wiring configuration after removing UART communication between STM32 microcontrollers.
-- **Key Features**: Added direct pin-to-pin communication wiring and optimized connections for the OLED display and UV sensor.
-- **Improvements Over Rev. 1**: Eliminated UART dependencies, reducing complexity and potential issues with synchronization.
+![Breadboard Rev. 1](Breadboard%20Revision%201.0.png)
+
+## 2. Breadboard Diagram – Rev. 2 (`Breadboard Revision 2.1.png`)
+- **Description**: Updated wiring configuration after removing UART communication between STM32 microcontrollers. This version was implemented physically on the breadboard.
+- **Key Features**: 
+  - Replaced UART with direct pin-to-pin communication wiring for simplicity and reliability.
+  - Optimized connections for the OLED display and UV sensor.
+- **Improvements Over Rev. 1**: Eliminated UART dependencies, reducing design complexity and avoiding synchronization challenges.
+
+![Breadboard Rev. 2](Breadboard%20Revision%202.1.png)
+
 
 ## 3. Design Document – Rev. 1 (`design_doc_rev1.pdf`)
 - **Description**: The initial version of the design document detailing system architecture, component selection, and UV sensor calibration approach.
