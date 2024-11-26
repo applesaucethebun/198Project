@@ -39,6 +39,8 @@ Below is the list of six design revisions submitted for review. Each revision hi
 - **Reason for Revision**: Feedback on incomplete sections regarding firmware installation and 3D printing guidelines prompted an update.  
 - **Changes Compared to Previous Version**: N/A (this is the initial version).  
 
+![User Manual Rev. 1.0](user_manual_rev1.png)
+
 ---
 
 ## User Manual – Rev. 2.2 (`user_manual_rev2.png`)
@@ -55,6 +57,8 @@ Below is the list of six design revisions submitted for review. Each revision hi
 - **Improvements Over Rev. 1.0**:  
   - Enhanced usability with step-by-step firmware instructions.  
   - New section on 3D printing for enclosure fabrication.  
+
+![User Manual Rev. 2.2](user_manual_rev2.png)  
 
 ---
 
