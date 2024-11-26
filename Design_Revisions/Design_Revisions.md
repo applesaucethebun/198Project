@@ -29,25 +29,32 @@ Below is the list of six design revisions submitted for review. Each revision hi
 
 ---
 
-## 3. Design Document – Rev. 1 (`design_doc_rev1.pdf`)
+## User Manual – Rev. 1.0 (`user_manual_rev1.png`)
+
 - **Date of Revision**: November 5, 2024  
-- **Description**: The initial version of the design document detailing system architecture, component selection, and UV sensor calibration approach.  
+- **Description**: Initial version of the user manual, providing an overview of the device's functionality and instructions for basic setup and operation.  
 - **Key Features**:  
-  - Provided baseline information about the hardware setup, communication protocols, and UV monitoring requirements.  
-- **Reason for Revision**: Feedback on missing details about power constraints and display visibility prompted a second revision.  
+  - Detailed system overview.  
+  - Step-by-step guide for powering on the device and operating the UV sensor.  
+- **Reason for Revision**: Feedback on incomplete sections regarding firmware installation and 3D printing guidelines prompted an update.  
 - **Changes Compared to Previous Version**: N/A (this is the initial version).  
 
 ---
 
-## 4. Design Document – Rev. 2 (`design_doc_rev2.pdf`)
+## User Manual – Rev. 2.2 (`user_manual_rev2.png`)
+
 - **Date of Revision**: November 8, 2024  
-- **Description**: Finalized version of the design document with updated details on power constraints, visibility requirements for the OLED display, and calibration methods.  
+- **Description**: Updated version of the user manual, with added sections on firmware installation and 3D printing recommendations, providing a more comprehensive guide for end users.  
 - **Key Features**:  
-  - Included comprehensive diagrams.  
-  - Added detailed explanations of power management and updated UV sensor specifications.  
-- **Improvements Over Rev. 1**:  
-  - Enhanced clarity on power requirements.  
-  - Incorporated calibration methodology specific to the hardware setup.  
+  - **Firmware Installation**:  
+    - The manual now includes instructions for reinstalling or updating the firmware if needed.  
+      - Firmware can be downloaded from the project's GitHub repository (currently a work in progress).  
+      - Detailed steps for downloading, flashing, and verifying the firmware using STM32CubeProgrammer are provided.  
+  - **3D Printing Recommendations**:  
+    - Added guidance on material selection (PLA recommended), layer height (0.2 mm), and infill percentage (20-30%).  
+- **Improvements Over Rev. 1.0**:  
+  - Enhanced usability with step-by-step firmware instructions.  
+  - New section on 3D printing for enclosure fabrication.  
 
 ---
 
