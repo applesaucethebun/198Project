@@ -24,7 +24,7 @@ Here are our three selected test demonstrations, showcasing key functionalities 
 - **Description**: Demonstrates the OLED display’s readability from side-to-side angles.  
 - **Test Inputs/Parameters**: Simulated UV index readings displayed on the OLED.  
 - **Pass/Fail Threshold**:  
-  - **Pass**: OLED display remains readable from side-to-side angles up to 100 degrees.  
+  - **Pass**: OLED display remains readable from side-to-side angles up to 100 degrees from 30 cm away.  
   - **Fail**: OLED display is not readable within the specified angle range.  
 
 The demonstrations will be conducted in-person.
